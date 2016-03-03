@@ -323,7 +323,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Convex: 0
-  m_Mesh: {fileID: 1563712234}
+  m_Mesh: {fileID: 1815409106}
 --- !u!114 &1240915593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +360,7 @@ MonoBehaviour:
       justify: 5
       localPivot: {x: 5, y: 0.5}
       localSize: {x: 10, y: 1}
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 0}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -388,7 +388,7 @@ MonoBehaviour:
       justify: 5
       localPivot: {x: 5, y: 0.5}
       localSize: {x: 10, y: 1}
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 0}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -416,7 +416,7 @@ MonoBehaviour:
       justify: 5
       localPivot: {x: 5, y: 0.5}
       localSize: {x: 10, y: 1}
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 0}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -444,7 +444,7 @@ MonoBehaviour:
       justify: 5
       localPivot: {x: 5, y: 0.5}
       localSize: {x: 10, y: 1}
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 0}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -472,7 +472,7 @@ MonoBehaviour:
       justify: 5
       localPivot: {x: 5, y: 5}
       localSize: {x: 10, y: 10}
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 0}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -500,7 +500,7 @@ MonoBehaviour:
       justify: 5
       localPivot: {x: 5, y: 5}
       localSize: {x: 10, y: 10}
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 0}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -606,7 +606,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1240915591}
-  m_Mesh: {fileID: 1563712234}
+  m_Mesh: {fileID: 1815409106}
 --- !u!114 &1240915595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,7 +629,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+  - {fileID: 2100000, guid: 58a93351cd903644d8cf6d29dae79b19, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -718,12 +718,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!43 &1563712234
+--- !u!43 &1815409106
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-9876
+  m_Name: pb_Mesh7450
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
