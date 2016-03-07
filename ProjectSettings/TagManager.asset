@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - pickup
+  - pit
+  - goal
   layers:
   - Default
   - TransparentFX

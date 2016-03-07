@@ -24,6 +24,7 @@ public class GameCtrl : MonoBehaviour {
 
 	void Init(){
 		onPlayerCollision += handlePlayerCollision;
+	
 	}
 
 	public static void TriggerPlayerCollisionEvent(GameObject player, Collider other){
@@ -32,10 +33,29 @@ public class GameCtrl : MonoBehaviour {
 
 	private void handlePlayerCollision(GameObject player, Collider other){
 		if (other.gameObject.CompareTag ("pickup")) {
-			other.gameObject.SetActive (false);
+			
+			PickupCtrl pickupCtrl = other.gameObject.GetComponent<PickupCtrl> ();
+			pickupCtrl.onPickUp();
+			PlayerCtrl playerCtrl = player.GetComponent<PlayerCtrl> ();
+			playerCtrl.score += 100;
+
 		}
+
+		if (other.gameObject.CompareTag ("pit")) {
+			PlayerCtrl playerCtrl = player.GetComponent<PlayerCtrl> ();
+			playerCtrl.Respawn(playerCtrl.SpawnPoint);
+			playerCtrl.lives -= 1;
+
+
+		}
+
+		if (other.gameObject.CompareTag ("goal")) {
+			PlayerCtrl playerCtrl = player.GetComponent<PlayerCtrl> ();
+			playerCtrl.Respawn(playerCtrl.SpawnPoint);
+		}
+
 	}
-	// Use this for initialization
+	// Use this 		for initialization
 	void Start () {
 		GameCtrl.instance.Init ();
 	}
